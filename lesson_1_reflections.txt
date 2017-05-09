@@ -1,0 +1,21 @@
+How did vieweing a diff between two versions help you spot the bug?
+
+It makes the process of finding differences fast and reliable
+Fast, because it is automated
+Reliable, because it finds the difference even if it is subtle
+People normally don't read whole words, just look for the shape
+if the shape of the word is similar you could miss the difference
+diff does not miss the difference
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+You don't have to keep backups and you avoid data loss
+In case of a bug you can look back to previous version, restore a working one, look for differences, etc.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+You have logical commit that group changes to code for similar functions.
+This makes it easy to find and revert files related to a specific bug.
+
